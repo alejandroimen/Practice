@@ -1,0 +1,9 @@
+table {
+    width: 80vw;
+    height: 55px;
+}
+
+tr {
+    width: 100%;
+    text-align: center;
+}
