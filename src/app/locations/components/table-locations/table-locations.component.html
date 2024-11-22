@@ -1,0 +1,13 @@
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Dimension</th>
+        <th>Actions</th>
+    </tr>
+    <tr class="table-row-location" 
+        *ngFor="let location of locations"
+        [location]="location"
+        >
+    </tr>
+</table>
